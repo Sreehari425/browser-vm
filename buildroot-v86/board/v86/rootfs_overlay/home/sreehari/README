@@ -1,0 +1,24 @@
+hey, this is a real linux vm running in your browser :)
+
+feel free to explore, nerds.
+
+  ls           - list files
+  cat <file>   - read a file
+  cd projects  - check out some of my projects
+  uname -a     - kernel info
+  whoami       - you know who
+
+  cat /etc/sources.txt   - credits & sources
+
+---
+## NOTE on Projects
+Some of the repos included in the `projects/` directory might be outdated :)
+It's recommended to check out their respective links on GitHub/Codeberg:
+
+- [presenceforge](https://github.com/Sreehari425/presenceforge.git)
+- [q6w](https://github.com/Sreehari425/q6w.git)
+- [idk-os](https://codeberg.org/sreehari425/idk-os.git)
+- [ping-pong](https://github.com/Sreehari425/ping-pong.git)
+
+have fun!
+  -- sreehari

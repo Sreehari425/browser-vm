@@ -1,0 +1,28 @@
+SOURCES & CREDITS
+=================
+
+This Linux image was built using the following open-source projects:
+
+  Browser VM (Buildroot config & Build Tree)
+    https://github.com/Sreehari425/browser-vm
+    (Forked/Based on https://github.com/humphd/browser-vm)
+
+  Buildroot (2021.02-rc2)
+    https://buildroot.org
+
+  v86 (x86 emulator in WebAssembly)
+    https://github.com/copy/v86
+
+  SeaBIOS
+    https://www.seabios.org
+
+  Linux Kernel (4.19.172)
+    https://kernel.org
+
+  BusyBox
+    https://busybox.net
+
+Customized and maintained by Sreehari
+  https://github.com/Sreehari425
+
+Type "cat /etc/sources.txt" to view this file again.
