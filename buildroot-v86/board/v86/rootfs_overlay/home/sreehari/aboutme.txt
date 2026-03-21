@@ -1,0 +1,2 @@
+hi, i'm sreehari anil . i enjoy systems programming .
+i mainly code in rust, but i know my way around other languages also :)
