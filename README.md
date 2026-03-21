@@ -1,11 +1,27 @@
-# Browser VM
+# Browser VM (Portfolio Build)
 
-A custom [Buildroot](https://buildroot.org/) config for a Linux x86 VM, meant to
-be run in the browser as part of [browser-shell](https://github.com/humphd/browser-shell).
-The resulting Linux ISO is meant to be run under
-emulation in the browser via [v86](https://github.com/copy/v86), and includes:
+This is a customized Buildroot tree specifically built for my portfolio terminal at [Sreehari425.github.io](https://sreehari425.github.io/). It generates a lightweight Linux x86 VM ISO that boots in the browser via WebAssembly
 
-* a custom Linux 4.15 kernel, which strips out many unnecessary drivers, modules, etc. and adds [Plan 9 filesystem](https://www.kernel.org/doc/Documentation/filesystems/9p.txt) sharing
+## Quick Start (Build the ISO)
+
+> **Warning:** This build process assumes you have Docker and standard build tools installed on your system.
+
+To build the custom ISO yourself, simply run:
+
+```bash
+mkdir -p dist
+
+./build.sh
+```
+When finished, the ISO will be at `./dist/v86-linux.iso`.
+
+---
+
+## Original Project Context
+
+A custom [Buildroot](https://buildroot.org/) config for a Linux x86 VM, originally meant to be run in the browser as part of [browser-shell](https://github.com/humphd/browser-shell). The resulting Linux ISO is run under emulation in the browser via [v86](https://github.com/copy/v86), and includes:
+
+* a custom Linux 4.19 kernel, stripping out unnecessary drivers and adding [Plan 9 filesystem](https://www.kernel.org/doc/Documentation/filesystems/9p.txt) sharing
 * a root filesystem and Unix commands via [BusyBox](https://busybox.net/)
 * an ISO-based bootloader (i.e., we create a "DVD" that is booted by v86)
 
