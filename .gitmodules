@@ -1,0 +1,12 @@
+[submodule "buildroot-v86/board/v86/rootfs_overlay/home/sreehari/projects/idk-os"]
+	path = buildroot-v86/board/v86/rootfs_overlay/home/sreehari/projects/idk-os
+	url = https://codeberg.org/sreehari425/idk-os.git
+[submodule "buildroot-v86/board/v86/rootfs_overlay/home/sreehari/projects/ping-pong"]
+	path = buildroot-v86/board/v86/rootfs_overlay/home/sreehari/projects/ping-pong
+	url = https://github.com/Sreehari425/ping-pong.git
+[submodule "buildroot-v86/board/v86/rootfs_overlay/home/sreehari/projects/presenceforge"]
+	path = buildroot-v86/board/v86/rootfs_overlay/home/sreehari/projects/presenceforge
+	url = https://github.com/Sreehari425/presenceforge.git
+[submodule "buildroot-v86/board/v86/rootfs_overlay/home/sreehari/projects/q6w"]
+	path = buildroot-v86/board/v86/rootfs_overlay/home/sreehari/projects/q6w
+	url = https://github.com/Sreehari425/q6w.git

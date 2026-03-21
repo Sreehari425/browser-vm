@@ -29,7 +29,7 @@
 console::respawn:/sbin/getty -L  console 0 vt100 # GENERIC_SERIAL
 
 # Auto-login as root on ttyS0
-::respawn:/sbin/getty ttyS0 38400 xterm -n -l /bin/sh
+::respawn:/sbin/getty ttyS0 38400 xterm -n -l /usr/local/bin/autologin
 
 # Stuff to do for the 3-finger salute
 #::ctrlaltdel:/sbin/reboot
