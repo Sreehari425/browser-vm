@@ -10,3 +10,6 @@
 [submodule "buildroot-v86/board/v86/rootfs_overlay/home/sreehari/projects/q6w"]
 	path = buildroot-v86/board/v86/rootfs_overlay/home/sreehari/projects/q6w
 	url = https://github.com/Sreehari425/q6w.git
+[submodule "buildroot-v86/board/v86/rootfs_overlay/home/sreehari/projects/saeos"]
+	path = buildroot-v86/board/v86/rootfs_overlay/home/sreehari/projects/saeos
+	url = https://codeberg.org/sreehari425/saeos.git
